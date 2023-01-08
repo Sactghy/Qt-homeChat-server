@@ -1,5 +1,5 @@
 # homeChat-server
 
-Asynchronous TCP server - demo, ip 127.0.0.1
+Asynchronous TCP server
 
-libraries : Asio, Qt 5.15.2
+libs : Asio, Qt 5.15.2
