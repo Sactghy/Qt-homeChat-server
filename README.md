@@ -2,6 +2,6 @@
 
 Asynchronous TCP server test 
 
-libs : Asio, Qt 5.15.2
+Asio, Qt 5.15.2
 
-clients : https://github.com/Sactghy/Qt-homeChat-client
+clients : https://github.com/Sactghy/Qt-homeChat-clients
