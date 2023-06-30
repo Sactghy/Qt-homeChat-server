@@ -56,7 +56,7 @@ struct a_handler
              r_handler* r_h0 = new r_handler( cur_sct ); r_h0->th = r_h0;
              cur_sct->async_read_some( asio::buffer( r_h0->readbuf, 128 ), *r_h0 );
              Connection* c0 = new Connection( cur_sct ); c0->r_handler = r_h0; c0->a_handler = th;
-             std::string s0 = ">>> A client came in -";
+             std::string s0 = ">>> A client have entered -";
              uu->textBrowser->append( s0.c_str() );
              for ( auto& c : conncol ) c->socket->write_some( asio::buffer( s0, s0.length() ) );
              conncol.push_back( c0 );
