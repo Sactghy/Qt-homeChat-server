@@ -1,6 +1,6 @@
 # homeChat-server
 
-Asynchronous TCP server test 
+TCP server for a chat, very basic
 
 Asio, Qt 5.15.2
 
